@@ -1,6 +1,6 @@
 {
   "name": "@kazuma1989/scaffold",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Copy any GitHub repo contents as a scaffold",
   "bin": "cli",
   "main": "index.js",
