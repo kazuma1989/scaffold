@@ -1,10 +1,10 @@
 const tar = require("tar");
 
-const [, , file] = process.argv;
-
-tar
-  .extract({
+module.exports = async function scaffold(file) {
+  await tar.extract({
     strip: 1,
     file
-  })
-  .then(console.log);
+  });
+
+  console.log("finished");
+};
