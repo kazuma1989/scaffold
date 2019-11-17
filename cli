@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 const scaffold = require("./index");
 
-const [, , file] = process.argv;
-scaffold(file);
+const [, , userAndRepo] = process.argv;
+
+const [user, repo] = userAndRepo.split("/");
+scaffold({ user, repo });
