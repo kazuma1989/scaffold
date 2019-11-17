@@ -12,5 +12,8 @@
     "scaffolding"
   ],
   "author": "kazuma1989 <funifuni.1204@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tar": "^5.0.5"
+  }
 }
