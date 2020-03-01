@@ -5,7 +5,7 @@ Copy any GitHub repo contents as a scaffold.
 ## Usage
 
 ```bash
-npx @kazuma1989/scaffold <username>/<repo>
+npx @kazuma1989/scaffold <username>/<repo> [subdir]
 ```
 
 Requirements: Node.js (including npx)
@@ -13,7 +13,7 @@ Requirements: Node.js (including npx)
 ### Example
 
 ```bash
-% npx @kazuma1989/scaffold kazuma1989/scaffold-react
+% npx @kazuma1989/scaffold kazuma1989/scaffold-react react-parcel
 % ls -1A
 .gitignore
 .prettierrc

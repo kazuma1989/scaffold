@@ -1,7 +1,8 @@
 #!/usr/bin/env node
+// @ts-check
 const scaffold = require("./index");
 
-const [, , userAndRepo] = process.argv;
+const [, , userAndRepo, subdir] = process.argv;
 
 const [user, repo] = userAndRepo.split("/");
-scaffold({ user, repo });
+scaffold({ user, repo, subdir });
